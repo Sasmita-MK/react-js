@@ -6,8 +6,9 @@ import { ListElements } from './ListElements';
 function App() {
   return (
     <div>
-      <Message></Message>
-      <ListElements></ListElements>
+      <Navbar />
+      <Main />
+      <Footer />
     </div>
     );
 }
