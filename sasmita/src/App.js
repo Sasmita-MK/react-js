@@ -1,14 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import { Message } from './Message'; 
-import { ListElements } from './ListElements';
+import { Counter } from './day-2/Counter';
 
 function App() {
   return (
     <div>
-      <Navbar />
-      <Main />
-      <Footer />
+      <Score />
     </div>
     );
 }
