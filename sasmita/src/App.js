@@ -1,11 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import { Counter } from './day-2/Counter';
+import { Team } from './day-1/day-1/pah/World';
 
 function App() {
   return (
     <div>
-      <Score />
+      <Team />
     </div>
     );
 }
