@@ -1,7 +1,8 @@
 import React from 'react'
 import { useState } from 'react'
 
-const [isClicked,checkClick] = useState(isClicked)
+const [isClicked,checkClick] = useState(flase)
+
 const Score = () => {
   return (
     <div>
