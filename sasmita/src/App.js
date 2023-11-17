@@ -1,14 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import { Team } from './day-1/day-1/pah/World';
-import { DataTypes } from './day-1/day-1/pah/DataTypes';
+import { FormExample } from './day-2/pah/FormExample';
 
 function App() {
   return (
-    <div>
-      <button onClick= {DataTypes}>Primitive Data Types</button>
-    </div>
-    );
+      <FormExample />
+    )
 }
 
 export default App;
